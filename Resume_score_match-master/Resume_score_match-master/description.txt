@@ -1,0 +1,8 @@
+This Python script is designed to match a resume (in PDF format) with multiple job descriptions using semantic similarity. It extracts text from the resume PDF and compares it to the provided job descriptions based on their content using a pre-trained BERT model. The script ranks the job descriptions by how closely they match the resume, displaying similarity scores for each.
+
+Key Modules Used:
+Sentence Transformers: Used to convert both the resume and job descriptions into numerical embeddings (vectors) that capture the semantic meaning of the text.
+
+Scikit-learn: Specifically, the cosine similarity function is used to measure how similar the resume and job descriptions are.
+
+PyMuPDF: Helps in extracting text from the uploaded PDF resume.
